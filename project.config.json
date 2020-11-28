@@ -1,0 +1,73 @@
+{
+	"projectid": "1111103997_INT%E8%AE%B0",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": false,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": true,
+		"nodeModules": true,
+		"uploadWithSourceMap": true,
+		"uglifyFileName": true,
+		"remoteDebugLogEnable": false,
+		"prefetch": false
+	},
+	"qqLibVersion": "1.20.0",
+	"compileType": "miniprogram",
+	"createTime": 1604668163283,
+	"accessTime": 1604668163283,
+	"packOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"qqappid": "1111103997",
+	"projectname": "INT%E8%AE%B0",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"plugin": {
+			"list": []
+		},
+		"gamePlugin": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "kklj",
+					"pathName": "pages/user_detail/user_detail_LSQ/user_detail_LSQ",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "asdasda",
+					"pathName": "pages/page_gll_detail/page_gll_detail",
+					"query": "",
+					"scene": ""
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.container {
+  font-family:Georgia,'Times New Roman',Times,serif;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604731310453&di=3f0631676cdef625cf42a84402dfdad9&imgtype=0&src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202004%2F27%2F20200427114427_xLUsK.thumb.1000_0.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 16px
+}

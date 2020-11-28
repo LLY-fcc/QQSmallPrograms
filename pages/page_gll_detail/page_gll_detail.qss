@@ -1,0 +1,91 @@
+.detail_table {
+    display: block;
+    width: 800rpx
+}
+.detail_show {
+    display: inline-block;
+    background: rgba(230,230,250,0.8);
+    width: 200rpx;
+    height: 200rpx;
+    text-align: center;
+    line-height: 200rpx
+}
+/*设置被选中时的样式*/
+.ontap {
+    background: rgba(255,192,203,0.9);
+}
+.detail_submit {
+    width: 90%;
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+    background: #90EE90
+}
+.button-hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+}
+/*设置遮罩层*/
+.detail_cover_box {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100
+}
+.detail_cover {
+    background: rgba(0,0,0,0.4);
+    position: absoluted;
+    width: 100%;
+    height: 100%;
+    z-index: 200
+}
+.detail_confirm {
+    background: rgba(255,255,255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400rpx;
+    height: 600rpx;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    z-index: 300
+}
+/*信息展示部分*/
+.detail_confirm_show {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+.detail_confirm_show_title {
+
+}
+.detail_confirm_show_content {
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+.detail_confirm_show_content_list {
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20rpx
+}
+.detail_confirm_show_content_list_child {
+    background: rgba(255,192,203,0.8);
+    display: inline-block;
+    width: 40rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    text-align: center;
+    margin-left: 8rpx
+}
+.detail_confirm_show_button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+.button_exit,.button_ok {
+
+}

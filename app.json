@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/user_detail/user_detail_bindinfo/user_detail_bindinfo",
+    "pages/user_detail/user_detail_teachSetting/user_detail_teachSetting",
+    "pages/user_detail/user_detail_LSQ/user_detail_LSQ",
+    "pages/page_en/page_en",
+    "pages/page_gll/page_gll",
+    "pages/page_gll_detail/page_gll_detail",
+    "pages/page_gclx/page_gclx"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "雏鹰计划",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#000",
+    "selectedColor": "#F00",
+    "backgroundColor": "#87A699",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "imgs/tabbar/shouye.png",
+        "selectedIconPath": "imgs/tabbar/shouye_3.png"
+
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "imgs/tabbar/gerenzhongxin.png",
+        "selectedIconPath": "imgs/tabbar/gerenzhongxin_3.png"
+      }
+    ]
+  }
+}
